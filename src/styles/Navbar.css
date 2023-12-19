@@ -85,6 +85,11 @@
     font-size: 13px;
 }
 
+#dashBtn:hover{
+    background: rgb(237, 18, 54);
+    color: rgb(31, 173, 228);
+}
+
 
 #addNewBtn{
     padding: 9px;
@@ -95,6 +100,11 @@
     outline: none;
     border: none;
     font-size: 13px;
+}
+
+#addNewBtn:hover{
+    background: #333;
+    color: #fff;
 }
 
 .btn-container2{

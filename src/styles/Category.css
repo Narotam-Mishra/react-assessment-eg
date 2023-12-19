@@ -1,0 +1,122 @@
+
+.cat-container{
+    width: 80%;
+    margin-left: 16rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.cat-con{
+    /* border: 1px solid; */
+    background: #fff;
+    padding-left: 2rem;
+    height: 340px;
+    width: 620px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 6px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.cat-con:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.bgRedContent{
+    border: 1px solid red;
+    background: #F64E60;
+    height: 240px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.content-cat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-design-cross{
+    position: absolute;
+    top: 106px;
+    height: 65px;
+}
+
+.expBtn-con{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.content-cat p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: #fff;
+}
+
+.expBtn-con p {
+    height: 30px;
+    width: 85px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #fff;
+    opacity: 0.8;
+    margin-right: 1rem;
+}
+
+.expBtn-con svg{
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+
+.bg-design-cross svg{
+    width: 100%;
+}
+
+.top-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-con p{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.top-con svg{
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.salesItems svg{
+    margin-top: 1rem;
+}
+
+.iconCon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.salesHead p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5px;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+}
+

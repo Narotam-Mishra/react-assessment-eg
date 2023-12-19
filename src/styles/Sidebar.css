@@ -24,9 +24,10 @@
 }
 
 #doubleArrow{
-    margin-top: 15px;
-    margin-right: 3rem;
+    position: absolute;
+    margin-top: 1rem;
     cursor: pointer;
+    right: 20px;
 }
 
 .secTop{

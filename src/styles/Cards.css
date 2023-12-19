@@ -1,0 +1,44 @@
+
+.cardContainer{
+    width: 80%;
+    margin-left: 16rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.card{
+    background: #fff;
+    padding-left: 2rem;
+    width: 204px;
+    height: 195px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card svg{
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+
+.card p{
+    margin-left: 0.7rem;
+}
+
+.video-tut{
+    background: #50CD89;
+    color: #fff;
+}
+
+.video-tut p{
+    line-height: 0.7px;
+    margin-top: 1.9rem;
+}

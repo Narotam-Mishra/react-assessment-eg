@@ -1,0 +1,49 @@
+
+.card1{
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: 16rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btnGrp {
+    display: flex;
+    gap: 2.2rem;
+    margin-right: 1rem;
+}
+
+.btnM {
+    color: #B5B5C3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btnW {
+    color: #B5B5C3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btnD {
+    width: 53px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #464E5F;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
